@@ -2,7 +2,6 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import scraper
 
-
 bot = telebot.TeleBot('7806855925:AAG1GH5V2t26cynQZS0ChTtDOBvsr1o7XiA')
 user_selected_currency = {}
 @bot.message_handler(commands=['start'])
